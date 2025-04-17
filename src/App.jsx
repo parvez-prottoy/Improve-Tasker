@@ -1,7 +1,19 @@
+import Banner from "./components/Banner";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+
 export default function App() {
   return (
-    <div>
-      <h1 class="text-3xl font-bold underline">Hello world!</h1>
-    </div>
+    <>
+      {/* Header section */}
+      <Header />
+      {/* Main sections */}
+      <main>
+        {/* Banner section */}
+        <Banner />
+      </main>
+      {/* Footer section */}
+      <Footer />
+    </>
   );
 }
