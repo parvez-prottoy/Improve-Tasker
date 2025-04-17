@@ -1,6 +1,7 @@
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import TaskBoard from "./taskBoard/TaskBoard";
 
 export default function App() {
   return (
@@ -11,6 +12,8 @@ export default function App() {
       <main>
         {/* Banner section */}
         <Banner />
+        {/* TaskBoard section */}
+        <TaskBoard />
       </main>
       {/* Footer section */}
       <Footer />
